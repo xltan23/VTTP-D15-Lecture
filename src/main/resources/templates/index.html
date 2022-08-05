@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greetings Page</title>
+</head>
+<body>
+    <h2 data-th-text="${message}"></h2>
+
+    <form action="/" method="GET">
+        <input type="text" name="greet">
+        <input type="submit" value="Get!">
+    </form>
+
+    <form action="/" method="POST">
+        <input type="text" name="greet">
+        <input type="submit" value="Post!">
+    </form>
+</body>
+</html>
